@@ -1,0 +1,32 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(60, 61, 55, 0.5) 5%, rgb(160, 147, 125, 0.5) 10%),
+        url("img.jpg")100% / cover no-repeat;
+    background-position: center;
+}
+
+.item {
+    background: #f77f00;
+    height: 15rem;
+    width: 20rem;
+    display: inline-block;
+}
+
+@media(max-width:1440) {
+    .item {
+        background: #f77f00;
+    }
+
+}
+
+@media(max-width:768px) {
+    .item {
+        background: #588157;
+    }
+}
+
+@media(max-width:375px) {
+    .item {
+        background: #d62828;
+    }
+}
